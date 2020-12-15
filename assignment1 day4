@@ -1,0 +1,13 @@
+f = open("demo.txt", "w")
+f.write(" I love LetsUpgrade")
+f.close()
+
+f = open("demo.txt", "r")
+print(f.read())
+
+f = open("demo.txt", "a")
+f.write(" i am varshini p")
+f.close()
+
+f = open("demo.txt", "r")
+print(f.read())
